@@ -1,0 +1,17 @@
+#ifndef CHAR_STREAM_H
+#define CHAR_STREAM_H
+
+#include "base.h"
+
+
+#define CHAR_STREAM_STRUCT_NAME Char
+#define CHAR_STREAM_TYPE_NAME char
+#define CHAR_STREAM_CALL_NAME char
+
+STREAM_EXPAND(
+    CHAR_STREAM_STRUCT_NAME,
+    CHAR_STREAM_TYPE_NAME,
+    CHAR_STREAM_CALL_NAME
+);
+
+#endif
