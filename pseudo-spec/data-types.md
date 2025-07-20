@@ -8,9 +8,7 @@ Data-types:
 - undefined
 - symbol
 - function
-- prototype
 - object
-- array
 
 To getting data-type of an expression, we can use typeof keyword:
 
