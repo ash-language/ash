@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "types.h": "c"
+    },
+    "clangd.arguments": [
+        "--compile-commands-dir=.",
+        "--header-insertion=iwyu",
+        "--suggest-missing-includes"
+    ]
+}

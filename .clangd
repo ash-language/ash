@@ -1,0 +1,12 @@
+CompileFlags:
+    Add: [-Isrc, -I., -Wall, -Wextra, -Iinclude, -Isrc]
+    Remove: [-W*, -std=*]
+Index:
+    Background: Build
+Diagnostics:
+    UnusedIncludes: Strict
+    MissingIncludes: Strict
+InlayHints:
+    Enabled: Yes
+    ParameterNames: Yes
+    DeducedTypes: Yes
